@@ -39,10 +39,10 @@ export default () => {
   })
 
   // release
-  // browserWindow.loadURL(require('./dist/index.html'))
+  browserWindow.loadURL(require('./dist/index.html'))
 
   // dev
-  const Panel = `http://localhost:8000#${Math.random()}`;
+  // const Panel = `http://localhost:8000#${Math.random()}`;
   browserWindow.loadURL(Panel)
 }
 
